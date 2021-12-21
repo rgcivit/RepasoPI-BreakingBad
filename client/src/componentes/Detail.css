@@ -1,0 +1,41 @@
+.detail-body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHvjI6YO-i6OJCIrTEWzOJLaPtqPypGVVCYQ&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+.title-detail{
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: rgb(0, 1, 12);
+    font-size: 50px;
+    }
+
+.detail{
+   
+    flex-direction:column;
+    justify-content:center;
+    text-decoration:none;
+    text-align:left;
+    border: 0.5px solid gray;
+    font-size: 20px;
+    font-weight: 100;
+    backdrop-filter:blur(7.5px); 
+    font-family: 'Quicksand', sans-serif;
+    box-shadow: 5px 1px 10px rgba(0,0,0,0.2);
+    transition: all 250ms ease;
+}
+#texto{
+    display: flex;
+    vertical-align: top;
+  }
+  img { float:left; 
+       
+  }
+  h1{
+      text-align: center;
+
+  }
+
+    
+

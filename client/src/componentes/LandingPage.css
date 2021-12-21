@@ -1,0 +1,36 @@
+body{
+    background-image: url('https://images5.alphacoders.com/559/thumb-1920-559865.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    box-sizing: border-box;
+}
+
+.boton{
+  width: 150px;
+  height: 75px;
+  border:0;
+  outline:0;
+  font-size: 15px;
+  font-style:italic;
+  background: #4E4C5C;
+  background: -moz-linear-gradient(top, #4E4C5C 0%, #68687D 50%, #FFFFFF 100%);
+  background: -webkit-linear-gradient(top, #4E4C5C 0%, #68687D 50%, #FFFFFF 100%);
+  background: linear-gradient(to bottom, #4E4C5C 0%, #68687D 50%, #FFFFFF 100%);
+  border-radius: 20px;
+  position:absolute;
+  left: 45%;
+  bottom: 50%;
+  box-shadow: inset -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 5px 5px 15px 5px rgba(0,0,0,0);
+  cursor: pointer;
+}
+
+.boton:hover{
+  box-shadow: 5px 5px 5px 0px #2EFFF6, inset 4px 4px 15px 0px #2EFFF6, 5px 5px 15px 5px rgba(32, 199, 191, 0.842); 
+}
+
+.titulo{
+  font-style: oblique;
+  font-family: 'Exo', sans-serif;
+  color: #5277bd;
+}

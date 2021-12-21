@@ -1,0 +1,39 @@
+
+.title-card{
+font-family: 'Fuzzy Bubbles', cursive;
+color: rgb(145, 150, 218);
+font-size: 50px;
+}
+
+.vgame-create{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 30px;
+ color: rgb(74, 240, 9);
+ 
+}
+
+
+.container-cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 50px;
+    padding: 0px 10px 0px 20px;
+    justify-content: center;
+    backdrop-filter:blur(7.5px); 
+    
+}
+.Indivgame{
+    display: inline-flexbox;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 20px;
+    padding-top: 7px;
+    font-family:  Arial, Helvetica, sans-serif;
+}
+
+.card-link{
+    height: 565px;
+
+}

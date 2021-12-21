@@ -1,0 +1,27 @@
+
+paginado css
+
+.boton-paginado {
+    border: 4px solid;
+    border: white;
+    background-color: #DC472F;
+    color: white;
+    font-size: 15px;
+}
+
+.boton-paginado:active {
+    background-color: black;
+    color: white;
+}
+
+.boton-paginado:hover:not(.active) {
+    background-color: rgb(77, 41, 41);
+}
+
+.div-paginado {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+

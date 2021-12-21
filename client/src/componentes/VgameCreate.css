@@ -1,0 +1,25 @@
+.title-create{
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: rgb(31, 44, 192);
+    font-size: 50px;
+    }
+    .bot-vgame{
+        display: inline-flexbox;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        border-radius: 5px;
+        padding-top: 7px;
+        font-family:  'Fuzzy Bubbles', cursive;
+        font-size: 20px;
+    }
+    li{
+        font-size: 15px;
+        font-family:  'Fuzzy Bubbles', cursive;
+        color: rgb(127, 179, 228);
+    }
+    label{
+        color: rgb(17, 17, 158);
+        font-size: 20px;
+        font-family: 'Fuzzy Bubbles', cursive;
+    }
